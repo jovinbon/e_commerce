@@ -5,8 +5,8 @@ from .forms import ContactForm, LoginForm, RegisterForm
 
 def home_page(request):
     context = {
-        "title": "Página principal",
-        "content": "Bem-vindo a página principal"
+        "title": "COMPANNION",
+        "content": "Bem-vindo à Homepage"
     }
     if request.user.is_authenticated:
         context["premium_content"] = "Você é um usuário Premium"
